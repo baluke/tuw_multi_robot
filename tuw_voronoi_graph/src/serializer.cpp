@@ -1,7 +1,7 @@
 #include <ros/ros.h>
 #include <tuw_serialization/serializer.h>
 #include <memory>
-#include <opencv/cv.hpp>
+#include <opencv2/opencv.hpp>
 #include <queue>
 #include <string>
 

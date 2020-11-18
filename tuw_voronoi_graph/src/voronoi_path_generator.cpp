@@ -3,7 +3,8 @@
 #include <tuw_voronoi_map/voronoi_path_generator.h>
 #include <tuw_voronoi_map/thinning.h>
 #include <memory>
-#include <opencv/cv.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgproc/types_c.h>
 #include <queue>
 #include <string>
 

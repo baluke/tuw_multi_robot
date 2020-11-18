@@ -22,7 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 # find_package(Boost REQUIRED COMPONENTS system)
 find_package(Boost COMPONENTS serialization filesystem program_options REQUIRED)
 find_package(Eigen3 REQUIRED)
-find_package(OpenCV 3 REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 find_library(DXF_LIB dxflib)
 if(NOT DXF_LIB)
